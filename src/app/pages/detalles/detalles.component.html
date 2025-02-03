@@ -1,0 +1,9 @@
+<div class="detalles">
+    <h1>{{ camiseta.nombre }}</h1>
+    <img [src]="camiseta.imagen" alt="{{ camiseta.nombre }}">
+    <p><strong>Equipo:</strong> {{ camiseta.equipo }}</p>
+    <p><strong>Temporada:</strong> {{ camiseta.temporada }}</p>
+    <p><strong>Precio:</strong> {{ camiseta.precio }}€</p>
+    <button (click)="agregarAlCarrito(camiseta)">Añadir al Carrito</button>
+  </div>
+  

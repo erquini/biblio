@@ -1,0 +1,13 @@
+<div class="home">
+    <h1>Todas las Camisetas</h1>
+  
+    <div class="camisetas-grid">
+      <div *ngFor="let camiseta of camisetas" class="camiseta-card">
+        <img [src]="camiseta.imagen" alt="{{ camiseta.nombre }}">
+        <h3>{{ camiseta.nombre }}</h3>
+        <p>{{ camiseta.descripcion }}</p>
+        <a [routerLink]="['/detalles', camiseta.id]" class="boton">Ver más</a>
+      </div>
+    </div>
+  </div>
+  

@@ -1,0 +1,37 @@
+/* === Contenedor Principal (Centrado) === */
+.container {
+    max-width: 900px;
+    margin: 120px auto 0 auto; /* 📌 Se asegura de que el contenido no se solape con el navbar */
+    text-align: center; /* 📌 Alinea todo el texto al centro */
+    padding: 20px;
+  }
+  
+  /* Estilos del título */
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  /* Estilos de los textos */
+  p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Botón de Ver Más */
+  .ver-mas {
+    display: inline-block;
+    background-color: #1e3a5f;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  .ver-mas:hover {
+    background-color: #142a41;
+  }
+  
